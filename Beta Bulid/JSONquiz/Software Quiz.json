@@ -1,0 +1,102 @@
+[
+  {
+    "QuestionText": "What is a variable?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A container:2) A value:3) An array:4) A function"
+  },
+  {
+    "QuestionText": "What is OOP?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Object Oriented Programming:2) Overlapping Output:3) Object Oriented Process:4) Order of Operations"
+  },
+  {
+    "QuestionText": "What is Github?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A text editor:2) A version control system:3) A programming language:4) A web browser"
+  },
+  {
+    "QuestionText": "What does HTML stand for?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) HyperText Markup Language:2) High Tech Modern Language:3) Hyperlink and Text Markup Language:4) Home Tool Markup Language"
+  },
+  {
+    "QuestionText": "What is a bug?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A feature request:2) A coding standard:3) An error in code:4) A software update"
+  },
+  {
+    "QuestionText": "What is a loop?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A repetitive structure:2) A data structure:3) A database query:4) A conditional statement"
+  },
+  {
+    "QuestionText": "What is SQL?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) Structured Query Line:2) Simple Query Language:3) Standard Query Line:4) Structured Query Language"
+  },
+  {
+    "QuestionText": "What is an API?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) Advanced Programming Interface:2) Application Programming Interface:3) Automated Process Integration:4) Advanced Protocol Interface"
+  },
+  {
+    "QuestionText": "What is a function?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A reusable block of code:2) A data type:3) A software application:4) A programming language"
+  },
+  {
+    "QuestionText": "What is a compiler?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A code editor:2) A debugging tool:3) A program that translates code:4) A hardware component"
+  },
+  {
+    "QuestionText": "What is C#?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A markup language :2) A programming language:3) A variable:4) A testing methodology"
+  },
+  {
+    "QuestionText": "What is a framework?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) A computer case:2) A design pattern:3) A software component:4) A pre-built set of tools and libraries"
+  },
+  {
+    "QuestionText": "What is a database?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A spreadsheet:2) A structured collection of data:3) A programming language:4) A web browser"
+  },
+  {
+    "QuestionText": "What is cybersecurity?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Protection of digital systems:2) Coding in secure environments:3) Software testing:4) A networking protocol"
+  },
+  {
+    "QuestionText": "What is version control?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) Controlling software versions:2) Managing project timelines:3) Tracking changes in code:4) A programming language feature"
+  },
+  {
+    "QuestionText": "What is a bug report?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A document describing a software issue:2) A code snippet:3) A user manual:4) A coding guideline"
+  },
+  {
+    "QuestionText": "What is DevOps?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) Developer Operations:2) Development and Operations:3) Device Optimization:4) Debugging and Optimization"
+  },
+  {
+    "QuestionText": "What is HTML5?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) The latest version of HTML:2) A programming language:3) A hardware specification:4) A video game"
+  },
+  {
+    "QuestionText": "What is a code review?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) Writing code from scratch:2) Debugging code:3) Evaluating code for quality:4) Coding in pairs"
+  },
+  {
+    "QuestionText": "What is software?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A programming interface:2) Process that run on a device:3) A code snippet:4) A hardware component"
+  }
+]

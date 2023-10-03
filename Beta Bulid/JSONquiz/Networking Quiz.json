@@ -1,0 +1,102 @@
+[
+  {
+    "QuestionText": "What does IP stand for?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Internet Protocol:2) Information Provider:3) Internet Port:4) Internal Protocol"
+  },
+  {
+    "QuestionText": "What is a MAC address?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) Media Access Control address:2) Hardware address:3) Internet address:4) IP address"
+  },
+  {
+    "QuestionText": "What is DNS used for?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Resolving domain names:2) Sending emails:3) Encrypting data:4) Routing network traffic"
+  },
+  {
+    "QuestionText": "What is a router?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A network cable:2) A computer program:3) A device that connects networks:4) A wireless keyboard"
+  },
+  {
+    "QuestionText": "What is a firewall?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A network security device:2) A web browser:3) A network cable:4) A network switch"
+  },
+  {
+    "QuestionText": "What is a subnet mask?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) A network protocol:2) A wireless router:3) A firewall setting:4) A way to divide IP addresses into network and host portions"
+  },
+  {
+    "QuestionText": "What is a VPN?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Virtual Private Network:2) Very Private Network:3) Virtual Personal Network:4) Virtual Protected Network"
+  },
+  {
+    "QuestionText": "What does PAN stand for?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) Wide Area Network:2) Local Area Network:3) Personal Area Network:4) Private Area Network"
+  },
+  {
+    "QuestionText": "What is NAT?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) Network Address Translation:2) National Address Technology:3) A method for remapping IP addresses:4) Network Access Token"
+  },
+  {
+    "QuestionText": "What is a modem?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A device that modulates and demodulates signals:2) A network protocol:3) A computer program:4) A network switch"
+  },
+  {
+    "QuestionText": "What does HTTP stand for?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Hypertext Transfer Protocol:2) HyperText Transfer Protocol Secure:3) High Transmission Throughput Protocol:4) Home Textual Transfer Protocol"
+  },
+  {
+    "QuestionText": "What is a DHCP server?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Dynamic Host Configuration Protocol server:2) Domain Hosting and Configuration Protocol server:3) Data Handling and Configuration Protocol server:4) Distributed Host Configuration Protocol server"
+  },
+  {
+    "QuestionText": "What is a switch?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A network cable:2) A device that connects devices within the same network:3) A firewall:4) A wireless keyboard"
+  },
+  {
+    "QuestionText": "What is a packet?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A unit of data transmitted over a network:2) A type of computer virus:3) A network cable:4) A network protocol"
+  },
+  {
+    "QuestionText": "What is bandwidth?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) A type of network cable:2) The number of devices on a network:3) A network protocol:4) The maximum data transfer rate of a network or internet connection"
+  },
+  {
+    "QuestionText": "What is a proxy server?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A network cable:2) A network switch:3) An intermediate server that acts as a gateway:4) A wireless router"
+  },
+  {
+    "QuestionText": "What does FTP stand for?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) File Transfer Protocol:2) Fast Text Processing:3) Free Text Protocol:4) Full Transmission Protocol"
+  },
+  {
+    "QuestionText": "What is a WAN?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) Wireless Access Network:2) Wide Area Network:3) Wired Area Network:4) Weak Area Network"
+  },
+  {
+    "QuestionText": "What is a proxy server used for?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) Providing DNS services:2) Hosting websites:3) Managing network security:4) Acting as an intermediary between a user and the internet"
+  },
+  {
+    "QuestionText": "What is latency?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) The time delay between sending and receiving data packets:2) A type of network cable:3) A network protocol:4) The speed of a network"
+  }
+]

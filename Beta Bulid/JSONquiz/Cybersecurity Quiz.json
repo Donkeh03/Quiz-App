@@ -1,0 +1,97 @@
+[
+  {
+    "QuestionText": "What is a firewall?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A network security device:2) A physical barrier:3) A software application:4) A network cable"
+  },
+  {
+    "QuestionText": "What is a virus?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A type of malware:2) A self-replicating program:3) A computer repair tool:4) A hardware component"
+  },
+  {
+    "QuestionText": "What is phishing?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A computer game:2) A data encryption method:3) Getting personal data by decpetive means:4) A network protocol"
+  },
+  {
+    "QuestionText": "What is encryption?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) A type of computer virus:2) A network security protocol:3) A method to hide files:4) Making data diffuclt to read"
+  },
+  {
+    "QuestionText": "What is a VPN?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Virtual Private Network:2) Very Protected Network:3) Virtual Personal Network:4) Virtual Public Network"
+  },
+  {
+    "QuestionText": "What does HTTPS stand for?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) Hypertext Transfer Protocol Secure:2) High-Efficiency Transport Protocol:3) Hypertext Transfer Protocol over Secure Socket Layer:4) Hyperlinked Text and Secure Protocol"
+  },
+  {
+    "QuestionText": "What is two-factor authentication (2FA)?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A type of encryption:2) A security process that requires two forms of identification:3) A network protocol:4) A hardware device"
+  },
+  {
+    "QuestionText": "What is a vulnerability assessment?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) A software update:2) A network penetration test:3) A computer game:4) Identifying security weaknesses in a system"
+  },
+  {
+    "QuestionText": "What is a malware?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Malicious software:2) A hardware component:3) A computer language:4) A network cable"
+  },
+  {
+    "QuestionText": "What is a data breach?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Unauthorized access to sensitive data:2) A hardware failure:3) A software crash:4) A network outage"
+  },
+  {
+    "QuestionText": "What is social engineering?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A network security protocol:2) Manipulating individuals to reveal confidential information:3) A hardware component:4) A computer programming technique"
+  },
+  {
+    "QuestionText": "What is a brute-force attack?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A type of encryption:2) A network security tool:3) An attack that tries all possible combinations to guess a password:4) A computer virus"
+  },
+  {
+    "QuestionText": "What is a security patch?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A software update that fixes security vulnerabilities:2) A network cable:3) A network security device:4) A firewall rule"
+  },
+  {
+    "QuestionText": "What is a zero-day vulnerability?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) A software bug that occurs on the first day of use:2) A hardware flaw:3) A security feature:4) A vulnerability that is exploited before a patch is available"
+  },
+  {
+    "QuestionText": "What is a DDoS attack?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A computer game:2) Distributed Denial of Service attack:3) A network security protocol:4) A data encryption method"
+  },
+  {
+    "QuestionText": "What is penetration testing?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A type of firewall:2) A hardware component:3) A security assessment that simulates an attack on a system to identify vulnerabilities:4) A software update"
+  },
+  {
+    "QuestionText": "What is ransomware?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Malicious software that encrypts data and demands a ransom:2) A network security tool:3) A hardware device:4) A computer programming language"
+  },
+  {
+    "QuestionText": "What is a security incident?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A network outage:2) A software bug:3) A security event that compromises data:4) A data breach"
+  },
+  {
+    "QuestionText": "What is a honeypot?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A network cable:2) A security mechanism:3) A network protocol:4) A type of encryption"
+  }
+]

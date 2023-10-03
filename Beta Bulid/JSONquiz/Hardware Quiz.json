@@ -1,0 +1,102 @@
+[
+  {
+    "QuestionText": "What is CPU?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Central Processing Unit:2) Computer Power Unit:3) Central Power Unit:4) Computer Programming Unit"
+  },
+  {
+    "QuestionText": "What does RAM stand for?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) Random Application Memory:2) Random Access Memory:3) Read-Only Memory:4) Rapid Access Module"
+  },
+  {
+    "QuestionText": "What is a GPU?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) Graphics Performance Unit:2) General Processing Unit:3) Graphics Processing Unit:4) Graphics Power Unit"
+  },
+  {
+    "QuestionText": "What does SSD stand for?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Solid State Drive:2) Software Storage Device:3) Secondary Storage Disk:4) System Storage Drive"
+  },
+  {
+    "QuestionText": "What is a motherboard?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A computer display:2) Main circuit board:3) A power supply unit:4) A cooling fan"
+  },
+  {
+    "QuestionText": "What is a BIOS?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) Basic Input/Output Software:2) Binary Input/Output System:3) Basic Integrated Operating System:4) Basic Input/Output System"
+  },
+  {
+    "QuestionText": "What is an HDMI port?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A data transfer protocol:2) A computer storage device:3) A video interface:4) A wireless networking standard"
+  },
+  {
+    "QuestionText": "What is a PSU?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Power Supply Unit:2) Processor Storage Unit:3) Peripheral Support Unit:4) Personal System Upgrade"
+  },
+  {
+    "QuestionText": "What is an SSD's primary advantage over an HDD?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) Higher capacity:2) Faster read/write speeds:3) Lower cost:4) Longer lifespan"
+  },
+  {
+    "QuestionText": "What is a graphics card driver?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A gaming application:2) A display monitor:3) Software that controls GPU:4) A cooling system"
+  },
+  {
+    "QuestionText": "What is a LAN?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Local Area Network:2) Large Area Network:3) Low-power Area Network:4) Live Area Network"
+  },
+  {
+    "QuestionText": "What is a CPU socket?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) A type of plug:2) A computer display:3) A cooling fan:4) A slot for connecting a CPU"
+  },
+  {
+    "QuestionText": "What is RAID?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) Rapid Application of Integrated Devices:2) Redundant Array of Independent Disks:3) Random Access Interface Device:4) Remote Access and Integrated Data"
+  },
+  {
+    "QuestionText": "What is a USB?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Universal Serial Bus:2) Universal Peripheral System:3) Unified Power Support:4) Unilateral Power Solution"
+  },
+  {
+    "QuestionText": "What does PSU wattage indicate?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) Processor speed:2) Hard drive capacity:3) Power output capacity:4) Cooling efficiency"
+  },
+  {
+    "QuestionText": "What is a heat sink?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) A cooling device:2) A storage component:3) A power supply:4) A network cable"
+  },
+  {
+    "QuestionText": "What is an optical drive?",
+    "CorrectAnswerIndex": "4",
+    "Answers": "1) A display monitor:2) A speaker system:3) A printer:4) A drive that reads CDs/DVDs"
+  },
+  {
+    "QuestionText": "What is a network switch?",
+    "CorrectAnswerIndex": "2",
+    "Answers": "1) A computer display:2) A device that connects network devices:3) A wireless router:4) A network cable"
+  },
+  {
+    "QuestionText": "What is ECC memory?",
+    "CorrectAnswerIndex": "1",
+    "Answers": "1) Error-Correcting Code memory:2) Extra Cache Capacity memory:3) External Connection Control memory:4) Enhanced CPU Clock memory"
+  },
+  {
+    "QuestionText": "What is a CPU core?",
+    "CorrectAnswerIndex": "3",
+    "Answers": "1) A computer case:2) A CPU instruction set:3) A processing unit on a CPU chip:4) A memory module"
+  }
+]
