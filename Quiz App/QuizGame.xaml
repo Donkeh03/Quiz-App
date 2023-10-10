@@ -12,14 +12,14 @@
         <Style TargetType="Button" x:Key="QuizGameButtonStyle">
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Background" Value="#064073"/>
+            <Setter Property="Background" Value="#242320"/>
             <Setter Property="BorderBrush" Value="#064073"/>
             <Setter Property="Foreground" Value="#FFFFFF"/>
             <Setter Property="FontSize" Value="24"/>
             <Setter Property="FontFamily" Value="Inter"/>
             <Setter Property="Width" Value="310"/>
             <Setter Property="Height" Value="90"/>
-            
+
 
             <Setter Property="Template">
                 <Setter.Value>
@@ -34,32 +34,63 @@
 
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#FF0C5DA4"/>
+                    <Setter Property="Background" Value="#064073"/>
                 </Trigger>
 
                 <Trigger Property="IsPressed" Value="True">
-                    <Setter Property="Background" Value="#FF0C5DA4"/>
+                    <Setter Property="Background" Value="#064073"/>
                 </Trigger>
             </Style.Triggers>
 
+
+        </Style>
+        <Style TargetType="Grid" x:Key="BGstyle">
+            
+            <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush>
+                    <GradientStop Color="#000000" Offset="1"/>
+                    <GradientStop Color="#292828" Offset="0.50"/>
+                    <GradientStop Color="#454242" Offset="0.75"/>
+                    <GradientStop Color="#5c5757" Offset="1"/>
+                    </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
         </Style>
 
 
+        <Style TargetType="Border" x:Key="BackgroundStyle">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#064073" Offset="0"/>
+                        <GradientStop Color="#F36D32" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
         <Style TargetType="Border" x:Key="QuizGameBorderStyle">
             <Setter Property="CornerRadius" Value="15"/>
-            <Setter Property="Background" Value="#064073"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#064073" Offset="0"/>
+                        <GradientStop Color="#F36D32" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
             <Setter Property="Width" Value="320"/>
             <Setter Property="Height" Value="100"/>
         </Style>
     </Page.Resources>
-    
-    <Grid Background="#2787DB">
+
+    <Grid Style="{StaticResource BGstyle}">
         
-        <Border CornerRadius="15" Background="#F36D32" Width="590" Height="45" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0">
+        <Border CornerRadius="15" Style="{StaticResource BackgroundStyle}" Width="590" Height="45" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0">
             <Label Content="" Name ="QuizTitle" FontFamily="Inter" Foreground="#FFFFFF" FontSize="32" FontWeight="Bold" HorizontalContentAlignment="Center"/>
         </Border>
 
-        <Border CornerRadius="25" Background="#064073" Width="950" Height="90" Margin="0,-300,0,0">
+        <Border CornerRadius="25" Style="{StaticResource BackgroundStyle}" Width="950" Height="90" Margin="0,-300,0,0">
             <Label Content="" Name = "QuestionLbl" Foreground="#FFFFFF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontFamily="Inter" HorizontalContentAlignment="Center"/>
         </Border>
 

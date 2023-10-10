@@ -237,5 +237,10 @@ namespace Quiz_App
             ChangeCaseOfChildElements(MidTopRow);
             ChangeCaseOfChildElements(MidBtmRow);
         }
+
+        private void PlayerUsernameTxtBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

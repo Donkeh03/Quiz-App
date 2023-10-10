@@ -19,7 +19,27 @@
             <Setter Property="Height" Value="40"/>
             <Setter Property="FontSize" Value="35"/>
             <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
+
 
         <Style TargetType="StackPanel" x:Key="LeaderboardFrameStyle">
             <Setter Property="Width" Value="265"/>
@@ -94,6 +114,28 @@
             <Setter Property="Height" Value="40"/>
             <Setter Property="Background" Value="#064073"/>
         </Style>
+
+        <Style x:Key="BackButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Page.Resources>
     
     <Grid Background="#FFFFFF">
@@ -103,7 +145,7 @@
         </Border>
 
         <Border CornerRadius="15" Background="#064073" Width="60" Height="60" Margin="5,5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button x:Name="BackBtn" Content="↩️" FontWeight="Bold" FontFamily="Inter" FontSize="45" Height="50" Width="50" Click="BackBtn_Click" Background="#064073" BorderBrush="#064073" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="BackBtn" Content="↩️" Style="{StaticResource BackButton}" FontWeight="Bold" FontFamily="Inter" FontSize="45" Height="50" Width="50" Click="BackBtn_Click" Background="#064073" BorderBrush="#064073" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         </Border>
 
         <Border HorizontalAlignment="Left" Margin="10,0,0,0" Style="{StaticResource LeaderboardBtnBorderStyle}">
