@@ -19,12 +19,39 @@
             <Setter Property="Height" Value="40"/>
             <Setter Property="FontSize" Value="35"/>
             <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
+
 
         <Style TargetType="StackPanel" x:Key="LeaderboardFrameStyle">
             <Setter Property="Width" Value="265"/>
             <Setter Property="Height" Value="670"/>
-            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#064073" Offset="0"/>
+                        <GradientStop Color="#F36D32" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
         </Style>
@@ -69,7 +96,14 @@
 
         <Style TargetType="Border" x:Key="LeaderboardFrameBorderStyle">
             <Setter Property="CornerRadius" Value="25"/>
-            <Setter Property="Background" Value="#2787DB"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#064073" Offset="0"/>
+                        <GradientStop Color="#F36D32" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
             <Setter Property="Height" Value="680"/>
             <Setter Property="Width" Value="275"/>
             <Setter Property="HorizontalAlignment" Value="Left"/>
@@ -83,27 +117,133 @@
             <Setter Property="Width" Value="245"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Top"/>
-            <Setter Property="Background" Value="#F36D32"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#064073" Offset="0"/>
+                        <GradientStop Color="#F36D32" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
             <Setter Property="Margin" Value="0,5,0,0"/>
         </Style>
 
-        <Style TargetType="Border" x:Key="LeaderboardUserBorderStyle">
+        <Style TargetType="Border" x:Key="LeaderboardUserBorderStyleFirst">
             <Setter Property="CornerRadius" Value="15"/>
             <Setter Property="Margin" Value="0,20,0,0"/>
             <Setter Property="Width" Value="220"/>
             <Setter Property="Height" Value="40"/>
-            <Setter Property="Background" Value="#064073"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#e1bb21" Offset="0"/>
+                        <GradientStop Color="#292828" Offset="0.80"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
         </Style>
+
+        <Style TargetType="Border" x:Key="LeaderboardUserBorderStyleSec">
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="Margin" Value="0,20,0,0"/>
+            <Setter Property="Width" Value="220"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#A3A3A3 " Offset="0"/>
+                        <GradientStop Color="#292828" Offset="0.80"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Border" x:Key="LeaderboardUserBorderStyleThird">
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="Margin" Value="0,20,0,0"/>
+            <Setter Property="Width" Value="220"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#de8833" Offset="0"/>
+                        <GradientStop Color="#292828" Offset="0.80"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Border" x:Key="DefaultStyle">
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="Margin" Value="0,20,0,0"/>
+            <Setter Property="Width" Value="220"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#292828" Offset="0"/>
+                        <GradientStop Color="#292828" Offset="0.80"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="BackButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Grid" x:Key="BGG">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#000000" Offset="1"/>
+                        <GradientStop Color="#292828" Offset="0.50"/>
+                        <GradientStop Color="#454242" Offset="0.75"/>
+                        <GradientStop Color="#5c5757" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <Style TargetType="Border" x:Key="LB">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#064073" Offset="0"/>
+                        <GradientStop Color="#F36D32" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        
     </Page.Resources>
     
-    <Grid Background="#FFFFFF">
+    <Grid Style="{StaticResource BGG}">
 
-        <Border CornerRadius="25" Background="#F36D32" Width="250" Height="45" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0">
+        <Border CornerRadius="25" Style="{StaticResource LB}"  Width="250" Height="45" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0">
             <Label Content="Leaderboards" Name ="QuizTitle" FontFamily="Inter" Foreground="#FFFFFF" FontSize="32" FontWeight="Bold" HorizontalContentAlignment="Center"/>
         </Border>
 
         <Border CornerRadius="15" Background="#064073" Width="60" Height="60" Margin="5,5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button x:Name="BackBtn" Content="↩️" FontWeight="Bold" FontFamily="Inter" FontSize="45" Height="50" Width="50" Click="BackBtn_Click" Background="#064073" BorderBrush="#064073" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="BackBtn" Content="↩️" Style="{StaticResource BackButton}" FontWeight="Bold" FontFamily="Inter" FontSize="45" Height="50" Width="50" Click="BackBtn_Click" Background="#064073" BorderBrush="#064073" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         </Border>
 
         <Border HorizontalAlignment="Left" Margin="10,0,0,0" Style="{StaticResource LeaderboardBtnBorderStyle}">
@@ -116,7 +256,7 @@
         
         <ScrollViewer x:Name="LeaderboardScrollFrame" HorizontalAlignment="Center" Height="700" Margin="0,65,0,0" VerticalAlignment="Top" Width="875" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Disabled">
             <StackPanel x:Name="ScrollViewStackPanel" HorizontalAlignment="Left" Height="680" VerticalAlignment="Top" Width="875" Orientation="Horizontal">
-               
+            
             </StackPanel>
         </ScrollViewer>
     </Grid>

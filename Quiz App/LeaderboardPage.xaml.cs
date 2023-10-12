@@ -29,9 +29,9 @@ namespace Quiz_App
 
         List<string> PlacementColours = new List<string>
         {
-            "#E1AD21",
-            "#A3A3A3",
-            "#A9550F"
+            "LeaderboardUserBorderStyleFirst",
+            "LeaderboardUserBorderStyleSec",
+            "LeaderboardUserBorderStyleThird"
         };
 
         public LeaderboardPage()
@@ -68,16 +68,18 @@ namespace Quiz_App
                 for (int index = 0; index <= 9; index++)
                 {
                     Border UserScoreTextBoxBorder = new Border();
-                    UserScoreTextBoxBorder.Style = (Style)Resources["LeaderboardUserBorderStyle"];
-                    
-                    DockPanel UserDataTextHolder = new DockPanel();
+                    UserScoreTextBoxBorder.Style = (Style)Resources["DefaultStyle"];
+
+
+                   DockPanel UserDataTextHolder = new DockPanel();
                     UserDataTextHolder.Style = (Style)Resources["DockPanelStyle"];
 
                     if (index < 3)
                     {
-                        Color color = (Color)ColorConverter.ConvertFromString(PlacementColours[index]);
-                        UserScoreTextBoxBorder.Background = new SolidColorBrush(color);
+                        string style = PlacementColours[index];
+                        UserScoreTextBoxBorder.Style = (Style)Resources[style];
                     }
+                   
 
                     if (index < FileData.Count)
                     {
